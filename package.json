@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "proxy": "http://localhost:4000",
+=======
+  "proxy": "http://localhost:80",
+>>>>>>> 894c1e2 (Initial frontend commit)
   "name": "frontend",
   "version": "0.1.0",
   "private": true,

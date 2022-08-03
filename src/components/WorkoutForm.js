@@ -26,7 +26,10 @@ const WorkoutForm = () => {
 				setReps("");
 				setError(null);
 				setEmptyFields([]);
+<<<<<<< HEAD
 				console.log('new workout added', json);
+=======
+>>>>>>> 894c1e2 (Initial frontend commit)
 				dispatch({type: "CREATE_WORKOUT", payload: json});
 			} else {
 				setError(json.err);
