@@ -6,9 +6,11 @@ const WorkoutDetails = ({workout}) => {
 	const { dispatch } = useWorkoutsContext();
 
 	const handleClick = async (e) => {
+		const API = "https://workout-tracker-will-h.herokuapp.com/";
+
 		try {
 			e.preventDefault();
-			const response = await fetch(`/api/workouts/${_id}`, {
+			const response = await fetch(`${API}/api/workouts/${_id}`, {
 				method: "DELETE"
 			})
 			if(response.ok) {

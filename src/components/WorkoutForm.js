@@ -10,10 +10,12 @@ const WorkoutForm = () => {
 	const [emptyFields, setEmptyFields] = useState([]);
 
 	const handleSubmit = async (e) => {
+		const API = "https://workout-tracker-will-h.herokuapp.com/";
+
 		try {
 			e.preventDefault();
 			const workout = { title, load, reps };
-			const response = await fetch("/api/workouts/", {
+			const response = await fetch(`${API}/api/workouts/`, {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 				body: JSON.stringify(workout)

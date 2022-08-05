@@ -6,10 +6,11 @@ import WorkoutForm from '../components/WorkoutForm';
 
 const Home = () => {
 	const {workouts, dispatch} = useWorkoutsContext();
+	const API = "https://workout-tracker-will-h.herokuapp.com/";
 
 	useEffect(() => {
 		const fetchWorkouts = async () => {
-			const response = await fetch("/api/workouts");
+			const response = await fetch(`${API}/api/workouts`);
 			const json = await response.json();
 
 			if (response.ok) {
