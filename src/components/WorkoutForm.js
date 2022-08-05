@@ -10,7 +10,7 @@ const WorkoutForm = () => {
 	const [emptyFields, setEmptyFields] = useState([]);
 
 	const handleSubmit = async (e) => {
-		const API = "https://workout-tracker-will-h.herokuapp.com/";
+		const API = "https://workout-tracker-will-h.herokuapp.com";
 
 		try {
 			e.preventDefault();

@@ -6,7 +6,7 @@ const WorkoutDetails = ({workout}) => {
 	const { dispatch } = useWorkoutsContext();
 
 	const handleClick = async (e) => {
-		const API = "https://workout-tracker-will-h.herokuapp.com/";
+		const API = "https://workout-tracker-will-h.herokuapp.com";
 
 		try {
 			e.preventDefault();

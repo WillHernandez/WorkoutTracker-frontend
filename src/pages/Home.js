@@ -6,7 +6,7 @@ import WorkoutForm from '../components/WorkoutForm';
 
 const Home = () => {
 	const {workouts, dispatch} = useWorkoutsContext();
-	const API = "https://workout-tracker-will-h.herokuapp.com/";
+	const API = "https://workout-tracker-will-h.herokuapp.com";
 
 	useEffect(() => {
 		const fetchWorkouts = async () => {
