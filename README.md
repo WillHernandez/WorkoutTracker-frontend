@@ -2,4 +2,8 @@
 
 This is a sample workout tracking app.
 
-Live Site: https://frolicking-ganache-42824a.netlify.app/
+NodeJS Backend: 
+https://github.com/WillHernandez/WorkoutTracker-backend
+
+Live Site:
+https://frolicking-ganache-42824a.netlify.app/
